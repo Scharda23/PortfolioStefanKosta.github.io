@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="title" content="Stefan Kostadinović-Portfolio">
+    <meta name="description" content="Lični portfolio Stefana Kostadinovića, studenta ICT Visoke škole u Beogradu, usmerenog na web razvoj, baze podataka i softversko inženjerstvo.">
+    <meta name="keywords" content="Stefan Kostadinovic, portfolio, ICT Visoka skola, web development, PHP, MySQL, Bootstrap, Beograd">
+    <meta name="author" content="Stefan Kostadinović">
+    <meta name="robots" content="index, follow">
+    <title>Stefan Kostadinović-Portfolio</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230f172a%22/><text x=%2250%25%22 y=%2265%25%22 font-family=%22sans-serif%22 font-size=%2255%22 font-weight=%22bold%22 fill=%22%23fbbf24%22 text-anchor=%22middle%22>SK</text></svg>">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">Stefan <span class="text-warning">Kostadinović</span></a>
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#menu"
+                        aria-controls="menu"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">O meni</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Obrazovanje</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Veštine</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projekti</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h2> Zravo ,ja sam</h2>
+                <h1><span class="text-warning">Stefan Kostadinović</span></h1>
+                <p>Izrađujem moderne, brze i kvalitetne responzivne Web sajtove</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-warning">O meni</a>
+                    <a href="#contact" class="btn btn-outline-light">Kontaktiraj me</a>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">O meni</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="assets/img/oMeniSlika.jpg" alt="Moja profilna slika" class="img-fluid">
+                    </div>
+                    <div class="about-text">
+                        <h5>Zdravo!</h5>
+                        <p>Moje ime je Stefan Kostadinović i student sam druge godine ICT Visoke škole.</p>
+                        <p>Interesujem se za front i end development i baze podataka. Cilj mi je da mogu da iskreiram kvalitetne i moderne Web aplikacije </p>
+                        <p>Moji hobiji su sport, gledanje filmova i serija kao i gejming kojima se bavim u slobodno vreme</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="education">
+            <div class="container">
+                <h2 class="section-title">Obrazovanje</h2>
+                <div class="education-grid">
+                    <div class="education-card">
+                        <i class="bi bi-building education-icon"></i>
+                        <h3>OŠ "Jefimija"</h3>
+                        <p>Osnovna škola</p>
+                        <span class="education-year">2010 - 2018</span>
+                    </div>
+                    <div class="education-card">
+                        <i class="bi bi-mortarboard-fill education-icon"></i>
+                        <h3>Tehnička škola u Obrenovcu</h3>
+                        <p>Srednja škola</p>
+                        <span class="education-year">2018 - 2022</span>
+                    </div>
+                    <div class="education-card">
+                        <i class="bi bi-laptop education-icon"></i>
+                        <h3>Odsek Visoka škola "ICT"</h3>
+                        <p>Više obrazovanje</p>
+                        <span class="education-year">2022-danas</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title">Veštine</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="bi bi-filetype-html skill-icon"></i>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                95%
+                            </div>
+                        </div>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="bi bi-css skill-icon"></i>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;">
+                                90%
+                            </div>
+                        </div>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="bi bi-bootstrap-fill skill-icon"></i>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%; background-color:#7952B3;">
+                                90%
+                            </div>
+                        </div>
+                        <h3>Bootstrap</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="bi bi-javascript skill-icon"></i>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning text-dark" role="progressbar" style="width: 80%;">
+                                80%
+                            </div>
+                        </div>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="bi bi-filetype-php skill-icon"></i>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 70%;">
+                                70%
+                            </div>
+                        </div>
+                        <h3>PHP</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="bi bi-database-fill skill-icon"></i>
+                        <div class="progress">
+                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 80%;">
+                                80%
+                            </div>
+                        </div>
+                        <h3>MySQL</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Projekti</h2>
+                <div class="projects-grid">
+                    <div class="card project-card">
+                        <img src="assets/img/projekat2.png"
+                            class="card-img-top"
+                            alt="AstroPC">
+                        <div class="card-body">
+                            <h4 class="card-title">AstroPC</h4>
+                            <p class="card-text">Online prodavnica računarske opreme izrađena korišćenjem HTML-a, CSS-a, Bootstrap-a i JavaScript-a.</p>
+                            <div class="project-tags">
+                                <span class="badge bg-primary">HTML</span>
+                                <span class="badge bg-success">CSS</span>
+                                <span class="badge bg-warning text-dark">JavaScript</span>
+                                <span class="badge bg-secondary">Bootstrap</span>
+                            </div>
+                            <div class="project-buttons mt-3">
+                                <a href="https://scharda23.github.io/Stefann.github.io/index.html " class="btn btn-outline-light">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card project-card">
+                        <img src="assets/img/projekat3.png" class="card-img-top" alt="Portfolio">
+                        <div class="card-body">
+                            <h4 class="card-title">Portfolio</h4>
+                            <p class="card-text">Lični portfolio sajt napravljen pomoću HTML-a, CSS Grid-a, Flexbox-a i Bootstrap-a.</p>
+                            <div class="project-tags">
+                                <span class="badge bg-primary">HTML</span>
+                                <span class="badge bg-success">CSS</span>
+                                <span class="badge bg-info">Grid</span>
+                                <span class="badge bg-dark">Flexbox</span>
+                            </div>
+                            <div class="project-buttons mt-3">
+                                <a href="#" class="btn btn-outline-light">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card project-card">
+                        <img src="assets/img/projekat1.png" class="card-img-top" alt="PHP">
+                        <div class="card-body">
+                            <h4 class="card-title">AstroPC 2</h4>
+                            <p class="card-text">Doradjena AstroPC online prodavnica sa boljim funkcionalnostima</p>
+                            <div class="project-tags">
+                                <span class="badge bg-success">PHP</span>
+                                <span class="badge bg-secondary">MySQL</span>
+                                <span class="badge bg-warning text-dark">Bootstrap</span>
+                            </div>
+                            <div class="project-buttons mt-3">
+                                <a href="https://scharda23.github.io/AstroPC.github.io/index.html" class="btn btn-outline-light">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title text-center mb-5">Kontakt</h2>
+                <div class="row g-4 align-items-stretch">
+                    <div class="col-lg-7">
+                        <div class="contact-form h-100">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Ime i prezime</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Unesite ime i prezime">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email adresa</label>
+                                    <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Poruka</label>
+                                    <textarea class="form-control" id="message" rows="6" placeholder="Unesite poruku"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Pošalji poruku</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="contact-info h-100">
+                            <h3>Kontaktirajte me</h3>
+                            <p>Ukoliko želite saradnju ili imate bilo kakvo pitanje, možete me kontaktirati putem forme, telefona ili društvenih mreža.</p>
+                            <hr>
+                            <p><i class="bi bi-telephone-fill"></i>+381 12 345 6789</p>
+                            <p><i class="bi bi-envelope-fill"></i>stefan.kostadinovic.113.22@ict.edu.rs</p>
+                            <p><i class="bi bi-geo-alt-fill"></i>Beograd, Srbija</p>
+                            <div class="social-icons mt-4">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                                <a href="#"><i class="bi bi-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="mb-0">&copy; 2026 Stefan Kostadinović. Sva prava zadržana.</p>
+                <ul class="footer-nav">
+                    <li><a href="#about">O meni</a></li>
+                    <li><a href="#education">Obrazovanje</a></li>
+                    <li><a href="#skills">Veštine</a></li>
+                    <li><a href="#projects">Projekti</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                    <li><a href="portfolio_ocenjivanje.pdf">Dokument</a></li>
+                </ul>
+                <div class="footer-social">
+                    <a href="#"><i class="bi bi-github"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
